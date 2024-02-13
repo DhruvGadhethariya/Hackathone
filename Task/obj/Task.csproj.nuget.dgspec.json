@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\hackthone\\Hackathone\\Task\\Task.csproj": {}
+    "D:\\Dg\\sem 5\\Dot net\\Projects\\Hackathone\\Task\\Task.csproj": {}
   },
   "projects": {
-    "E:\\hackthone\\Hackathone\\Task\\Task.csproj": {
+    "D:\\Dg\\sem 5\\Dot net\\Projects\\Hackathone\\Task\\Task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\hackthone\\Hackathone\\Task\\Task.csproj",
+        "projectUniqueName": "D:\\Dg\\sem 5\\Dot net\\Projects\\Hackathone\\Task\\Task.csproj",
         "projectName": "Task",
-        "projectPath": "E:\\hackthone\\Hackathone\\Task\\Task.csproj",
-        "packagesPath": "C:\\Users\\Tisha\\.nuget\\packages\\",
-        "outputPath": "E:\\hackthone\\Hackathone\\Task\\obj\\",
+        "projectPath": "D:\\Dg\\sem 5\\Dot net\\Projects\\Hackathone\\Task\\Task.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Dg\\sem 5\\Dot net\\Projects\\Hackathone\\Task\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
